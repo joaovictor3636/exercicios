@@ -1,7 +1,7 @@
 1.A) number_1 = float(input("preço da impressao:"))
 number_2 = float(input("quantidade de folhas:"))
-result = (number_1) * (number_2)
-print("valor a pagar: " + str(result))
+result = (number_1) * (number_2) #Não precisa de parêntese aqui
+print("valor a pagar: " + str(result)) #Não precisa converter para string aqui, batava colocar uma vírgula no lugar do '+'
 
 
 B)number_1 = input("peso da refeição (1000g):")
@@ -36,7 +36,7 @@ carnePe = float(input("qual o preço do kg da carne?"))
 cerveja = float(input("qunatas cervejas por pessoas?"))
 cervejaPe = float(input("qual o preço da unidade da cerveja?"))
 
-result = (pessoas) / (kgcarne) * (carnePe) + (cerveja) * (cervejaPe) 
+result = (pessoas) / (kgcarne) * (carnePe) + (cerveja) * (cervejaPe) #aqui é importante colocar parênteses para determinar o que será feito primeiro. POr isso sugiro você usar os parênteses da seguinte forma '(pessoas/ kgcarne)', por exemplo. Porque aí vc diz o que precisa ser feito primeiro, do jeito que tá pode ficar confuso para o programa
 print("cada pessoas vai pagar:" + str(result))
 
 
