@@ -1,0 +1,47 @@
+1.A) number_1 = float(input("preço da impressao:"))
+number_2 = float(input("quantidade de folhas:"))
+result = (number_1) * (number_2)
+print("valor a pagar: " + str(result))
+
+
+B)number_1 = input("peso da refeição (1000g):")
+number_2 = input("peso do prato:")
+
+
+result = int(number_1) - int(number_2)
+print("valor a pagar: " + str(result))
+
+C) number_1 = float(input("valor da lan house:"))
+number_2 = float(input("tempo de uso 1HR igual á 60Min:"))
+
+
+result = (number_1) * (number_2)
+print("valor a pagar: " + str(result))
+
+D)number_1 = float(input("quantos dias atrasou?:"))
+number_2 = float(input("valor da multa é R$ 0,75 por dia atraso (escreva o valor):"))
+
+
+result = (number_1) * (number_2)
+print("valor a pagar: " + str(result))
+
+if number_1 >= 1:
+    print("vc pagará uma multa")
+
+
+
+E) pessoas = float(input("quantas pessoas na festa?"))
+kgcarne = float(input("quantos grama carne por pessoa?"))
+carnePe = float(input("qual o preço do kg da carne?"))
+cerveja = float(input("qunatas cervejas por pessoas?"))
+cervejaPe = float(input("qual o preço da unidade da cerveja?"))
+
+result = (pessoas) / (kgcarne) * (carnePe) + (cerveja) * (cervejaPe) 
+print("cada pessoas vai pagar:" + str(result))
+
+
+
+
+     
+
+
